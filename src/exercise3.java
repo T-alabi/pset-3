@@ -18,7 +18,7 @@ import java.util.Scanner;
 
             //message prints, but commas don't work and check the math with check thingy
 
-            String ansMessage = " square millimeters.";
+            String ansMessage = " square millimeters."; 
             System.out.printf("%.2f",  (height * width) * 25.4 );
             System.out.println(ansMessage);
 
