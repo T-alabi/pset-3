@@ -16,10 +16,11 @@ import java.util.Scanner;
             System.out.println("Height: " + height);
             System.out.println("Width: " + width);
 
-            //message prints, but commas don't work and check the math with check thingy
+            //message prints, and commas work
 
-            String ansMessage = " square millimeters."; 
-            System.out.printf("%.2f",  (height * width) * 25.4 );
+
+            String ansMessage = " square millimeters.";
+            System.out.printf("%,.2f",  (height * width) * 645.16 );
             System.out.println(ansMessage);
 
             input.close();
