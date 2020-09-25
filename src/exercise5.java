@@ -28,6 +28,7 @@ public class exercise5 {
 
 
         //final output fix
+        System.out.println();
         System.out.printf("%.2f",fHw + fq + t );
         System.out.println("%.");
 

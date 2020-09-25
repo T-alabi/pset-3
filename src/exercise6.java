@@ -30,6 +30,7 @@ public class exercise6 {
         System.out.print("Sunday   :");
         double sun = in.nextDouble();
 
+        System.out.println();
         System.out.print("$");
         System.out.printf("%.2f", (mon + tues + wed + thur + fri + sat + sun) * Wage );
         System.out.print(".");

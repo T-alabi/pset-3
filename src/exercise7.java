@@ -27,6 +27,7 @@ public class exercise7 {
 
         //calc final salary and print
 
+        System.out.println();
         System.out.print("$");
         System.out.printf("%.2f", biweekly - (deductFed + deductState)  );
         System.out.print(".");

@@ -12,7 +12,7 @@ import java.util.Scanner;
             System.out.print("Width:");
             double width = input.nextDouble();
 
-
+            System.out.println();
             String ansMessage = " square millimeters.";
             System.out.printf("%,.2f",  (height * width) * 645.16 );
             System.out.println(ansMessage);

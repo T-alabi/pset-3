@@ -10,6 +10,7 @@ public class exercise4 {
         System.out.print("Width:");
         double width = input.nextDouble();
 
+        System.out.println();
         String ansMessage = " centimeters.";
         System.out.printf("%,.2f", (( height * 2) + (width * 2 )) * 2.54 );
         System.out.println(ansMessage);
