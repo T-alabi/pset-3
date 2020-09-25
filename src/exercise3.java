@@ -6,17 +6,11 @@ import java.util.Scanner;
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
 
-            System.out.println("Height:");
+            System.out.print("Height:");
             double height = input.nextDouble();
 
-            System.out.println("Width:");
+            System.out.print("Width:");
             double width = input.nextDouble();
-
-
-            System.out.println("Height: " + height);
-            System.out.println("Width: " + width);
-
-            //message prints, and commas work
 
 
             String ansMessage = " square millimeters.";
