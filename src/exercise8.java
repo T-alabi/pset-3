@@ -18,8 +18,7 @@ public class exercise8 {
         int totalppl = students + teachers;
         int overflow = totalppl % capacity;
         //calculate busses required
-        totalppl = totalppl/capacity;
-        int tbusses = totalppl +1;
+        int tbusses = ((students + teachers + capacity - 1)/capacity);
 
 
         //display
