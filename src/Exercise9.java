@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class exercise9 {
+public class Exercise9 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         //enter amount
-        System.out.print("Amount :");
+        System.out.print("Amount : ");
         double amount = in.nextDouble();
 
         //math
@@ -27,5 +27,7 @@ public class exercise9 {
         System.out.printf("Dimes    : %.0f\n", dimes);
         System.out.printf("Nickles  : %.0f\n", nickles);
         System.out.printf("Pennies  : %.0f\n", pennies);
+
+        in.close();
     }
 }

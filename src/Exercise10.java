@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class exercise10 {
+public class Exercise10 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
 
         //input
-        System.out.print("Fahrenheit :");
+        System.out.print("Fahrenheit : ");
         double fah = in.nextDouble();
 
         //math
@@ -15,6 +15,8 @@ public class exercise10 {
         //display
         System.out.println("");
         System.out.printf("Celsius : %.2f\n", cels);
-        System.out.printf("Kelvin  :%.2f\n", kel);
+        System.out.printf("Kelvin  : %.2f\n", kel);
+
+        in.close();
     }
 }
